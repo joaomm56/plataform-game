@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_selected_ui",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.934603,
+  "name":"snd_selected_ui",
+  "parent":{
+    "name":"sons de fundo",
+    "path":"folders/Sons/sons de fundo.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_selected_ui.wav",
+  "type":0,
+  "volume":1.0,
+}

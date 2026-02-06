@@ -1,0 +1,1 @@
+font	= font_add_sprite( spr_fonte_pause, ord(" "), 1, 1);

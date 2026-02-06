@@ -1,0 +1,2 @@
+#macro AXIS_DEADZONE 0.25
+#macro AXIS_DEADZONEV 0.4

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_level_failed",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.5,
+  "name":"snd_level_failed",
+  "parent":{
+    "name":"sons de fundo",
+    "path":"folders/Sons/sons de fundo.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_level_failed.wav",
+  "type":0,
+  "volume":1.0,
+}

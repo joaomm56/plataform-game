@@ -1,0 +1,4 @@
+global.life = 3;
+
+
+
