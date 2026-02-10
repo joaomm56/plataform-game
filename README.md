@@ -91,6 +91,7 @@ Principais funcionalidades:
 - **Sistema de Save e Load**  
   Salvamento e carregamento automático do progresso do jogador.
   ![save-menu-game-image](images/save-menu-game.png)
+  
   *Fig. 2 – Sistema de save*
 
 - **Liberdade de escolha de controlo**  
