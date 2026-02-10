@@ -7,25 +7,12 @@
 
 **Fig. 1 – Capa do Jogo**
 
-**Nome do aluno:** João Murta  
-**Nº:** 7  
-**Ano:** 12º  
-**Turma:** P  
-
-**Professor Orientador:** Nelson Filipe Lourenço Vieira  
-**Diretor de Curso:** Nelson Filipe Lourenço Vieira  
-
----
-
-## Agrupamento de Escolas Poeta António Aleixo
-
 ---
 
 ## Índice
 
 - [Resumo](#resumo)
 - [Introdução](#introdução)
-- [Agradecimentos](#agradecimentos)
 - [Desenvolvimento](#desenvolvimento)
   - Pesquisa sobre o projeto
   - Pontos importantes implementados no jogo
@@ -61,14 +48,6 @@ A escolha deste tema foi impulsionada pelo meu gosto por jogos e pela vontade de
 Os jogos são uma forma de entretenimento amplamente difundida, podendo também ser ferramentas educativas. Contudo, a sua criação envolve desafios como planeamento, design, programação e testes.
 
 Este projeto tem como objetivo criar um jogo envolvente e tecnicamente sólido, explorando as funcionalidades do Game Maker e analisando os resultados obtidos em termos de jogabilidade, desempenho e experiência do utilizador.
-
----
-
-## Agradecimentos
-
-Gostaria de expressar a minha profunda gratidão aos meus colegas e a todos os que me acompanharam durante o estágio.
-
-O apoio, as ideias, o feedback construtivo e o incentivo constante foram fundamentais para o sucesso deste projeto.
 
 ---
 
@@ -128,6 +107,7 @@ Cada movimento foi desenhado manualmente, passando por um processo de tentativa 
 ![sprite-inimigo-image](images/grey-monkey-sprite-game.png)
 
 *Fig. 5 – Sprite player alternativo*
+
 ---
 
 ### Programação importante do projeto
@@ -135,6 +115,7 @@ Cada movimento foi desenhado manualmente, passando por um processo de tentativa 
 #### Aceitação de dispositivos externos
 
 Foi criado um objeto específico responsável por gerir os comandos externos.
+
 ![game-object-image](images/game-object.png)
 
 *Fig. 6 – Objeto do jogo*
@@ -144,6 +125,7 @@ Foi criado um objeto específico responsável por gerir os comandos externos.
 *Fig. 7 – Código de verificação do comando*
 
 ![function-detect-command](images/command-block.png)
+
 *Fig. 8 – Função de deteção do comando*
 
 Características:
@@ -177,16 +159,25 @@ Características:
 - Ativado pelo jogador
 
 ![save-load-manual-image](images/func-save-load-man.png)
+
 *Fig. 10 – Save manual*
-- *Fig. 11 – Menu de save*
+
+![save-load-menu-image](images/save-menu-game.png)
+
+*Fig. 11 – Menu de save*
 
 #### Save automático dos níveis
 
 - Salvamento automático ao completar níveis
 - Carregamento automático no início do jogo
 
-- *Fig. 12 – Save automático do level*
-- *Fig. 13 – Load automático do level*
+![auto-save-game-image](images/func-save-auto.png)
+
+*Fig. 12 – Save automático do level*
+
+![auto-load-game-image](images/func-load-auto.png)
+
+*Fig. 13 – Load automático do level*
 
 ---
 
@@ -196,8 +187,13 @@ Características:
 
 Criação de um objeto base `obj_entidade`, pai de jogadores e inimigos.
 
-- *Fig. 14 – Objeto entidade*
-- *Fig. 15 – Explicação do objeto entidade*
+![obj-entity-image](images/obj-entity.png)
+
+*Fig. 14 – Objeto entidade*
+
+![exp-obj-entity-image](images/-expobj-entity.png)
+
+*Fig. 15 – Explicação do objeto entidade*
 
 Implementação de hitbox dividida em quatro partes:
 
