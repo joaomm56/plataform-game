@@ -89,7 +89,8 @@ O projeto incluiu a implementação de mecânicas variadas, inimigos com comport
 Principais funcionalidades:
 
 - **Sistema de Save e Load**  
-  Salvamento e carregamento automático do progresso do jogador.  
+  Salvamento e carregamento automático do progresso do jogador.
+  ![save-menu-game-image](images/save-menu-game.png)
   *Fig. 2 – Sistema de save*
 
 - **Liberdade de escolha de controlo**  
@@ -114,11 +115,12 @@ Principais funcionalidades:
 Os sprites foram inteiramente criados por mim, com inspirações retiradas da internet.
 
 Cada movimento foi desenhado manualmente, passando por um processo de tentativa e erro. O feedback de colegas foi essencial para melhorar os resultados.
-
+![sprite-player-image](images/creating-sprites-game.png)
 - *Fig. 3 – Sprite do player*
+![sprite-inimigo-image](images/eye-sprite-game.png)
 - *Fig. 4 – Sprite inimigo*
-- *Fig. 5 – Sprite inimigo*
-
+![sprite-inimigo-image](images/rey-monkey-game.png)
+- *Fig. 5 – Sprite player alternativo*
 ---
 
 ### Programação importante do projeto
