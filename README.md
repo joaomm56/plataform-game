@@ -135,10 +135,16 @@ Cada movimento foi desenhado manualmente, passando por um processo de tentativa 
 #### Aceitação de dispositivos externos
 
 Foi criado um objeto específico responsável por gerir os comandos externos.
+![game-object-image](images/game-object.png)
 
-- *Fig. 6 – Objeto do jogo*
-- *Fig. 7 – Código de verificação do comando*
-- *Fig. 8 – Função de deteção do comando*
+*Fig. 6 – Objeto do jogo*
+
+![code-detect-command-image](images/function-detect.png)
+
+*Fig. 7 – Código de verificação do comando*
+
+![function-detect-command](images/command-block.png)
+*Fig. 8 – Função de deteção do comando*
 
 Características:
 - Objeto persistente
@@ -161,14 +167,17 @@ Características:
 - Criação automática do ficheiro
 - Salvamento imediato após alterações
 
-- *Fig. 9 – Scripts de save/load*
+![script-save-load-image](images/save-load-script.png)
+
+*Fig. 9 – Scripts de save/load*
 
 #### Save manual
 
 - Suporte para múltiplos slots
 - Ativado pelo jogador
 
-- *Fig. 10 – Save manual*
+![save-load-manual-image](images/func-save-load-man.png)
+*Fig. 10 – Save manual*
 - *Fig. 11 – Menu de save*
 
 #### Save automático dos níveis
