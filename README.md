@@ -5,6 +5,8 @@
 **Prova de Aptidão Profissional**  
 **Projeto:** Jogo 2D no Game Maker  
 
+![cape-game-image](images/cape-game.png)
+
 **Fig. 1 – Capa do Jogo**
 
 ---
@@ -229,10 +231,21 @@ O player utiliza uma **state machine**, dividindo o comportamento em estados.
 
 Os inimigos utilizam a mesma lógica de state machine e herdam o sistema de colisões.
 
-- *Fig. 21 – Create obj_pai_inimigos*
-- *Fig. 22 – Objeto pirata*
-- *Fig. 23 – Create do pirata*
-- *Fig. 24 – Step do pirata*
+![obj-dad-enemy-image](images/obj-dad-enemy.png)
+
+*Fig. 21 – Create obj_pai_inimigos*
+
+![obj-pirate-image](images/obj-pirate.png)
+
+*Fig. 22 – Objeto pirata*
+
+![create-pirate-image](images/create-pirate.png)
+
+*Fig. 23 – Create do pirata*
+
+![step-pirate-image](images/step-pirate.png)
+
+*Fig. 24 – Step do pirata*
 
 Estados implementados:
 - Free
@@ -240,10 +253,24 @@ Estados implementados:
 - Chase
 - Ataque
 
-- *Fig. 25 – Free*
-- *Fig. 26 – Dano*
-- *Fig. 27 – Chase*
-- *Fig. 28 – Ataque*
+![free-pirate-image](images/step-free-pirate.png)
+
+*Fig. 25 – Free*
+
+![damage-pirate-image](images/step-damage-pirate.png)
+
+*Fig. 26 – Dano*
+
+![chase-pirate-image](images/step-chase-pirate.png)
+
+*Fig. 27 – Chase*
+
+![attack-pirate-image](images/step-attack-pirate.png)
+
+*Fig. 28 – Ataque*
+
+![example-hitbox-image](images/ex-hitbox.png)
+
 - *Fig. 29 – Hitbox*
 
 ---
@@ -285,8 +312,13 @@ Este projeto representou uma evolução significativa das minhas competências t
 
 ## Mais Fotografias
 
-- *Fig. 30 – Seleção de níveis*
-- *Fig. 31 – Configurações do jogo*
+![select-level-image](images/level-selector.png)
+
+*Fig. 30 – Seleção de níveis*
+
+![config-game-image](images/options-game.png)
+
+*Fig. 31 – Configurações do jogo*
 
 ---
 
