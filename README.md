@@ -191,14 +191,19 @@ Criação de um objeto base `obj_entidade`, pai de jogadores e inimigos.
 
 *Fig. 14 – Objeto entidade*
 
-![exp-obj-entity-image](images/-expobj-entity.png)
+![exp-obj-entity-image](images/exp-obj-entity.png)
 
 *Fig. 15 – Explicação do objeto entidade*
 
 Implementação de hitbox dividida em quatro partes:
 
-- *Fig. 16 – BBox*
-- *Fig. 17 – Código da BBox*
+![bbox-image](images/bbox.png)
+
+*Fig. 16 – BBox*
+
+![bbox-code-image](images/bbox-code.png)
+
+*Fig. 17 – Código da BBox*
 
 ---
 
@@ -206,9 +211,17 @@ Implementação de hitbox dividida em quatro partes:
 
 O player utiliza uma **state machine**, dividindo o comportamento em estados.
 
-- *Fig. 18 – Objeto player*
-- *Fig. 19 – Create do player*
-- *Fig. 20 – State machine*
+![obj-player-image](images/obj-player.png)
+
+*Fig. 18 – Objeto player*
+
+![create-player-image](images/create-player.png)
+
+*Fig. 19 – Create do player*
+
+![state-machine-image](images/state-machine.png)
+
+*Fig. 20 – State machine*
 
 ---
 
