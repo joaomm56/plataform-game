@@ -1,203 +1,204 @@
-# Relatório PAP 2024
+# PAP Report 2024
 
-## Curso Profissional Técnico de Gestão de Equipamentos Informáticos
+## Professional Course – Computer Equipment Management Technician
 
-**Prova de Aptidão Profissional**  
-**Projeto:** Jogo 2D no Game Maker  
+**Professional Aptitude Test**  
+**Project:** 2D Game in Game Maker  
 
 ![cape-game-image](images/cape-game.png)
 
-**Fig. 1 – Capa do Jogo**
+**Fig. 1 – Game Cover**
 
 ---
 
-## Índice
+## Index
 
-- [Resumo](#resumo)
-- [Introdução](#introdução)
-- [Desenvolvimento](#desenvolvimento)
-  - Pesquisa sobre o projeto
-  - Pontos importantes implementados no jogo
-  - Sprites personalizados
-  - Programação importante do projeto
-- [Resolução de Problemas](#resolução-de-problemas)
-- [Conclusão](#conclusão)
-- [Melhorias Futuras](#melhorias-futuras)
-- [Considerações Finais](#considerações-finais)
-- [Mais Fotografias](#mais-fotografias)
-- [Netgrafia](#netgrafia)
-
----
-
-## Resumo
-
-O presente trabalho de Prova de Aptidão Profissional (PAP) teve como objetivo desenvolver um jogo 2D utilizando a plataforma **Game Maker**. Este projeto surgiu do meu interesse por jogos e do desejo de aplicar os conhecimentos adquiridos no Curso Técnico de Gestão de Equipamentos Informáticos.
-
-Ao longo do desenvolvimento, foram abordados vários aspetos essenciais para a criação de um jogo, desde o design e a programação até à implementação de funcionalidades interativas.
-
-O processo incluiu a criação de personagens, cenários, mecânicas de jogo e um sistema robusto de **save/load**. Enfrentei diversos desafios técnicos que foram superados através de pesquisa e testes rigorosos.
-
-O resultado final é um jogo 2D funcional que reflete as habilidades adquiridas ao longo do curso, destacando a importância da pesquisa contínua e da resolução de problemas no desenvolvimento de software.
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Development](#development)
+  - Project Research
+  - Important Points Implemented in the Game
+  - Custom Sprites
+  - Important Project Programming
+- [Problem Solving](#problem-solving)
+- [Conclusion](#conclusion)
+- [Future Improvements](#future-improvements)
+- [Final Considerations](#final-considerations)
+- [More Pictures](#more-pictures)
+- [Webgraphy](#webgraphy)
 
 ---
 
-## Introdução
+## Abstract
 
-Este trabalho de Prova de Aptidão Profissional (PAP) tem como foco o desenvolvimento de um jogo 2D utilizando a plataforma **Game Maker**.
+This Professional Aptitude Test (PAP) project aimed to develop a 2D game using the **Game Maker** platform. This project arose from my interest in games and my desire to apply the knowledge acquired during the Computer Equipment Management Technician course.
 
-A escolha deste tema foi impulsionada pelo meu gosto por jogos e pela vontade de aplicar os conhecimentos de programação adquiridos ao longo do curso.
+Throughout the development, several essential aspects of game creation were addressed, from design and programming to the implementation of interactive features.
 
-Os jogos são uma forma de entretenimento amplamente difundida, podendo também ser ferramentas educativas. Contudo, a sua criação envolve desafios como planeamento, design, programação e testes.
+The process included the creation of characters, scenarios, game mechanics, and a robust **save/load** system. I faced several technical challenges that were overcome through research and rigorous testing.
 
-Este projeto tem como objetivo criar um jogo envolvente e tecnicamente sólido, explorando as funcionalidades do Game Maker e analisando os resultados obtidos em termos de jogabilidade, desempenho e experiência do utilizador.
-
----
-
-## Desenvolvimento
-
-### Pesquisa sobre o projeto
-
-Este projeto envolveu uma extensa pesquisa sobre os fundamentos do desenvolvimento de jogos 2D e as funcionalidades específicas do **Game Maker**.
-
-Inicialmente, não possuía conhecimentos da linguagem utilizada, mas através de tutoriais, documentação oficial e exemplos práticos, consegui adquirir as competências necessárias.
-
-O projeto incluiu a implementação de mecânicas variadas, inimigos com comportamentos distintos e obstáculos que aumentam a complexidade dos níveis.
+The final result is a functional 2D game that reflects the skills acquired throughout the course, highlighting the importance of continuous research and problem-solving in software development.
 
 ---
 
-### Pontos importantes implementados no jogo
+## Introduction
 
-Principais funcionalidades:
+This Professional Aptitude Test (PAP) focuses on the development of a 2D game using the **Game Maker** platform.
 
-- **Sistema de Save e Load**  
-  Salvamento e carregamento automático do progresso do jogador.
+The choice of this theme was driven by my passion for games and my desire to apply the programming knowledge acquired during the course.
+
+Games are a widely spread form of entertainment and can also serve as educational tools. However, their creation involves challenges such as planning, design, programming, and testing.
+
+This project aims to create an engaging and technically solid game, exploring Game Maker’s features and analyzing the results in terms of gameplay, performance, and user experience.
+
+---
+
+## Development
+
+### Project Research
+
+This project involved extensive research on the fundamentals of 2D game development and the specific features of **Game Maker**.
+
+Initially, I had no knowledge of the programming language used, but through tutorials, official documentation, and practical examples, I was able to acquire the necessary skills.
+
+The project included the implementation of various mechanics, enemies with distinct behaviors, and obstacles that increase the complexity of the levels.
+
+---
+
+### Important Points Implemented in the Game
+
+Main features:
+
+- **Save and Load System**  
+  Automatic saving and loading of the player’s progress.  
+
   ![save-menu-game-image](images/save-menu-game.png)
   
-  *Fig. 2 – Sistema de save*
+  *Fig. 2 – Save system*
 
-- **Liberdade de escolha de controlo**  
-  Suporte para comandos Xbox, PS4 e genéricos.
+- **Control Freedom**  
+  Support for Xbox, PS4, and generic controllers.
 
-- **Controles Intuitivos**  
-  Jogabilidade fluida e fácil de usar.
+- **Intuitive Controls**  
+  Smooth and easy-to-use gameplay.
 
-- **Design de Níveis**  
-  Níveis com dificuldade progressiva.
+- **Level Design**  
+  Levels with progressive difficulty.
 
-- **Elementos Gráficos**  
-  Sprites personalizados e animações.
+- **Graphic Elements**  
+  Custom sprites and animations.
 
-- **Áudio e Efeitos Sonoros**  
-  Música de fundo e efeitos imersivos.
+- **Audio and Sound Effects**  
+  Background music and immersive sound effects.
 
 ---
 
-### Como foram feitos os sprites personalizados
+### How the Custom Sprites Were Made
 
-Os sprites foram inteiramente criados por mim, com inspirações retiradas da internet.
+The sprites were entirely created by me, with inspiration taken from the internet.
 
-Cada movimento foi desenhado manualmente, passando por um processo de tentativa e erro. O feedback de colegas foi essencial para melhorar os resultados.
+Each movement was manually drawn, going through a trial-and-error process. Feedback from classmates was essential to improve the results.
 
 ![sprite-player-image](images/creating-sprites-game.png)
 
-*Fig. 3 – Sprite do player*
+*Fig. 3 – Player sprite*
 
 ![sprite-inimigo-image](images/eye-sprite-game.png)
 
-*Fig. 4 – Sprite inimigo*
+*Fig. 4 – Enemy sprite*
 
 ![sprite-inimigo-image](images/grey-monkey-sprite-game.png)
 
-*Fig. 5 – Sprite player alternativo*
+*Fig. 5 – Alternative player sprite*
 
 ---
 
-### Programação importante do projeto
+### Important Project Programming
 
-#### Aceitação de dispositivos externos
+#### External Device Support
 
-Foi criado um objeto específico responsável por gerir os comandos externos.
+A specific object was created to manage external controllers.
 
 ![game-object-image](images/game-object.png)
 
-*Fig. 6 – Objeto do jogo*
+*Fig. 6 – Game object*
 
 ![code-detect-command-image](images/function-detect.png)
 
-*Fig. 7 – Código de verificação do comando*
+*Fig. 7 – Command verification code*
 
 ![function-detect-command](images/command-block.png)
 
-*Fig. 8 – Função de deteção do comando*
+*Fig. 8 – Command detection function*
 
-Características:
-- Objeto persistente
-- Verificação contínua no evento `Step`
-- Deadzone configurada para analógicos
-- Atualização dinâmica dos ícones conforme o comando ligado
+Features:
+- Persistent object  
+- Continuous verification in the `Step` event  
+- Configurable deadzone for analog sticks  
+- Dynamic icon updates according to the connected controller  
 
 ---
 
-### Sistema de Save
+### Save System
 
-#### Tipos de ficheiros salvos
+#### Types of Saved Files
 
-- **Settings:** configurações do jogo
-- **Level:** progresso do jogador
+- **Settings:** game configurations  
+- **Level:** player progress  
 
-#### Save/Load automático das settings
+#### Automatic Save/Load of Settings
 
-- Funções específicas para salvar e carregar
-- Criação automática do ficheiro
-- Salvamento imediato após alterações
+- Specific functions to save and load  
+- Automatic file creation  
+- Immediate saving after changes  
 
 ![script-save-load-image](images/save-load-script.png)
 
-*Fig. 9 – Scripts de save/load*
+*Fig. 9 – Save/Load scripts*
 
-#### Save manual
+#### Manual Save
 
-- Suporte para múltiplos slots
-- Ativado pelo jogador
+- Support for multiple slots  
+- Activated by the player  
 
 ![save-load-manual-image](images/func-save-load-man.png)
 
-*Fig. 10 – Save manual*
+*Fig. 10 – Manual save*
 
 ![save-load-menu-image](images/save-menu-game.png)
 
-*Fig. 11 – Menu de save*
+*Fig. 11 – Save menu*
 
-#### Save automático dos níveis
+#### Automatic Level Save
 
-- Salvamento automático ao completar níveis
-- Carregamento automático no início do jogo
+- Automatic saving upon level completion  
+- Automatic loading at the start of the game  
 
 ![auto-save-game-image](images/func-save-auto.png)
 
-*Fig. 12 – Save automático do level*
+*Fig. 12 – Automatic level save*
 
 ![auto-load-game-image](images/func-load-auto.png)
 
-*Fig. 13 – Load automático do level*
+*Fig. 13 – Automatic level load*
 
 ---
 
 ### Player
 
-#### Lógica inicial
+#### Initial Logic
 
-Criação de um objeto base `obj_entidade`, pai de jogadores e inimigos.
+Creation of a base object `obj_entidade`, parent of players and enemies.
 
 ![obj-entity-image](images/obj-entity.png)
 
-*Fig. 14 – Objeto entidade*
+*Fig. 14 – Entity object*
 
 ![exp-obj-entity-image](images/exp-obj-entity.png)
 
-*Fig. 15 – Explicação do objeto entidade*
+*Fig. 15 – Explanation of the entity object*
 
-Implementação de hitbox dividida em quatro partes:
+Implementation of a hitbox divided into four parts:
 
 ![bbox-image](images/bbox.png)
 
@@ -205,21 +206,21 @@ Implementação de hitbox dividida em quatro partes:
 
 ![bbox-code-image](images/bbox-code.png)
 
-*Fig. 17 – Código da BBox*
+*Fig. 17 – BBox code*
 
 ---
 
-#### Lógica do player
+#### Player Logic
 
-O player utiliza uma **state machine**, dividindo o comportamento em estados.
+The player uses a **state machine**, dividing behavior into different states.
 
 ![obj-player-image](images/obj-player.png)
 
-*Fig. 18 – Objeto player*
+*Fig. 18 – Player object*
 
 ![create-player-image](images/create-player.png)
 
-*Fig. 19 – Create do player*
+*Fig. 19 – Player Create event*
 
 ![state-machine-image](images/state-machine.png)
 
@@ -227,31 +228,31 @@ O player utiliza uma **state machine**, dividindo o comportamento em estados.
 
 ---
 
-### Inimigos
+### Enemies
 
-Os inimigos utilizam a mesma lógica de state machine e herdam o sistema de colisões.
+Enemies use the same state machine logic and inherit the collision system.
 
 ![obj-dad-enemy-image](images/obj-dad-enemy.png)
 
-*Fig. 21 – Create obj_pai_inimigos*
+*Fig. 21 – Create obj_parent_enemies*
 
 ![obj-pirate-image](images/obj-pirate.png)
 
-*Fig. 22 – Objeto pirata*
+*Fig. 22 – Pirate object*
 
 ![create-pirate-image](images/create-pirate.png)
 
-*Fig. 23 – Create do pirata*
+*Fig. 23 – Pirate Create event*
 
 ![step-pirate-image](images/step-pirate.png)
 
-*Fig. 24 – Step do pirata*
+*Fig. 24 – Pirate Step event*
 
-Estados implementados:
-- Free
-- Dano
-- Chase
-- Ataque
+Implemented states:
+- Free  
+- Damage  
+- Chase  
+- Attack  
 
 ![free-pirate-image](images/step-free-pirate.png)
 
@@ -259,7 +260,7 @@ Estados implementados:
 
 ![damage-pirate-image](images/step-damage-pirate.png)
 
-*Fig. 26 – Dano*
+*Fig. 26 – Damage*
 
 ![chase-pirate-image](images/step-chase-pirate.png)
 
@@ -267,7 +268,7 @@ Estados implementados:
 
 ![attack-pirate-image](images/step-attack-pirate.png)
 
-*Fig. 28 – Ataque*
+*Fig. 28 – Attack*
 
 ![example-hitbox-image](images/ex-hitbox.png)
 
@@ -275,56 +276,56 @@ Estados implementados:
 
 ---
 
-## Resolução de Problemas
+## Problem Solving
 
-Durante o desenvolvimento, enfrentei vários problemas técnicos que foram resolvidos através de pesquisa, testes e persistência.
+During development, I faced several technical problems that were solved through research, testing, and persistence.
 
-Este processo foi essencial para garantir a estabilidade e funcionamento correto do jogo.
-
----
-
-## Conclusão
-
-O desenvolvimento deste jogo 2D proporcionou uma experiência prática e enriquecedora em programação, design e gestão de projetos.
-
-O projeto final demonstra as competências adquiridas e a capacidade de resolver problemas técnicos de forma eficaz.
+This process was essential to ensure the stability and proper functioning of the game.
 
 ---
 
-## Melhorias Futuras
+## Conclusion
 
-- Melhorar gráficos e animações
-- Adicionar novos níveis e personagens
-- Otimizar performance
-- Incorporar feedback dos jogadores
-- Lançamento mobile
-- Sistema de estrelas por nível
-- Sistema de recompensas
-- Sons e músicas originais
+The development of this 2D game provided a practical and enriching experience in programming, design, and project management.
+
+The final project demonstrates the skills acquired and the ability to effectively solve technical problems.
 
 ---
 
-## Considerações Finais
+## Future Improvements
 
-Este projeto representou uma evolução significativa das minhas competências técnicas e pessoais, servindo como base sólida para futuros projetos na área de desenvolvimento de jogos.
+- Improve graphics and animations  
+- Add new levels and characters  
+- Optimize performance  
+- Incorporate player feedback  
+- Mobile release  
+- Star rating system per level  
+- Reward system  
+- Original sounds and music  
 
 ---
 
-## Mais Fotografias
+## Final Considerations
+
+This project represented a significant evolution of my technical and personal skills, serving as a solid foundation for future projects in the field of game development.
+
+---
+
+## More Pictures
 
 ![select-level-image](images/level-selector.png)
 
-*Fig. 30 – Seleção de níveis*
+*Fig. 30 – Level selection*
 
 ![config-game-image](images/options-game.png)
 
-*Fig. 31 – Configurações do jogo*
+*Fig. 31 – Game settings*
 
 ---
 
-## Netgrafia
+## Webgraphy
 
-### Canais YouTube
+### YouTube Channels
 - https://www.youtube.com/@gui_oficial/videos
 - https://www.youtube.com/c/PontoeV%C3%ADrgulaOficial/videos
 - https://www.youtube.com/@noneclass/videos
@@ -335,9 +336,9 @@ Este projeto representou uma evolução significativa das minhas competências t
 - https://www.youtube.com/@GameMakerEngine/videos
 - https://www.youtube.com/@ShaunJS/videos
 
-### Sites
-- Sons: https://freesound.org/
-- Música:  
+### Websites
+- Sounds: https://freesound.org/
+- Music:  
   - https://www.youtube.com/watch?v=TUxT9FP8PkQ  
-  - https://www.youtube.com/watch?v=EOI42tiHOXQ
-- Manual GameMaker: https://manual.gamemaker.io/
+  - https://www.youtube.com/watch?v=EOI42tiHOXQ  
+- GameMaker Manual: https://manual.gamemaker.io/
